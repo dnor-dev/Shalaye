@@ -164,6 +164,10 @@ form #basic-addon2:hover{
     h1{
         font-size: 1.2em !important;
     }
+    
+    .file-claim{
+        color: #333 !important;
+    }
 
     .display-4{
         font-size: 2em !important;
@@ -248,6 +252,10 @@ form #basic-addon2:hover{
     #section-1{
         height: 2300px !important;
     }
+
+    .file-claim{
+        color: #eaeaea !important;
+    }
 }
 
 @media screen and (width:414px){
@@ -262,6 +270,10 @@ form #basic-addon2:hover{
     
     #section-1{
         height: 2300px !important;
+    }
+
+    .file-claim{
+        color: #eaeaea !important;
     }
 }
 
