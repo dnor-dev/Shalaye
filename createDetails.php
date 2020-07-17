@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', '', 'shalaye_db');
+$conn = mysqli_connect('localhost', 'id14346550_shalaye_user', 'ff*_]a_R%P9w0xEp', 'id14346550_shalaye');
 $message = '';
 
 
