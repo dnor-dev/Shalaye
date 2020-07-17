@@ -13,7 +13,7 @@ if (isset ($_POST['submit'])){
 
     if ($result){
         echo "<script>
-        window.location.pathname = 'index.html';
+        window.location.pathname = index.html;
              </script>";
     }else{
         echo "<script>
