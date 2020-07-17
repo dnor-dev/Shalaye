@@ -3,7 +3,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'shalaye_db');
 $message = '';
 
 
-if (isset ($_POST['submit'])){
+if (isset ($_POST['email'])){
     $email = $_POST['email'];
     $email = mysqli_real_escape_string($conn, $email);
 
