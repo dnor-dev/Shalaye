@@ -4,9 +4,7 @@ $message = '';
 
 
 if (isset ($_POST['submit'])){
-   if (isset ($_POST['email'])){
     $email = $_POST['email'];
-   }
 
 
     $query = "INSERT INTO capture (email) VALUES ('$email')";
