@@ -13,7 +13,7 @@ if (isset ($_POST['submit'])){
 
     if ($result){
         echo "<script>
-        alert('Successfully Subscribed');
+        window.location.reload();
              </script>";
     }else{
         echo "<script>
