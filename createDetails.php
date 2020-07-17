@@ -8,7 +8,7 @@ if (isset ($_POST['submit'])){
     $email = mysqli_real_escape_string($conn, $email);
 
 
-    $query = "INSERT INTO capture (email) VALUE ('$email')";
+    $query = "INSERT INTO capture (email) VALUES ('$email')";
     $result = mysqli_query($conn, $query);
 
     if ($result){
